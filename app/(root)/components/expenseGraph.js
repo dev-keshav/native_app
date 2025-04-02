@@ -5,7 +5,7 @@ import { BarChart } from 'react-native-chart-kit';
 const ExpenseGraph = () => {
   return (
     <View style={styles.container}>
-      <Text style={styles.graphTitle}>Expense Frequency</Text>
+      {/* <Text style={styles.graphTitle}>Expense Frequency</Text> */}
       <BarChart
         data={{
           labels: ['Jan', 'Feb', 'Mar', 'Apr', 'May', 'Jun'],
@@ -16,7 +16,7 @@ const ExpenseGraph = () => {
           ],
         }}
         width={Dimensions.get('window').width - 40}
-        height={220}
+        height={200}
         yAxisLabel="$"
         chartConfig={{
           backgroundGradientFrom: '#fef7ea',
@@ -36,7 +36,7 @@ export default ExpenseGraph;
 const styles = StyleSheet.create({
   container: {
     alignItems: 'center',
-    marginTop: 20,
+    // marginTop: 20,
   },
   graphTitle: {
     fontSize: 18,

@@ -70,10 +70,12 @@ const styles = StyleSheet.create({
     flexGrow: 1,
   },
   container: {
-    flex: 1,
+    // flex: 1,
     alignItems: 'center',
-    paddingTop: 40,
+    paddingTop: 20,
     backgroundColor: '#fef7ea',
+    paddingBottom: 10,
+    marginBottom: 10
   },
   balanceContainer: {
     flex: 1,
@@ -114,7 +116,8 @@ const styles = StyleSheet.create({
     borderRadius: 20,
   },
   graphContainer: {
-    flex: 1,
+    // flex: 1,
+    marginBottom: 10
   },
   transactionContainer: {
     flex: 4,
